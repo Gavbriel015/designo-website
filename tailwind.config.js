@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bgPattern': "url(/public/assets/shared/desktop/bg-pattern-call-to-action.svg)"
+        'bgPattern': "url(/public/assets/shared/desktop/bg-pattern-call-to-action.svg)",
+        'heroPattern': "url(/public/assets/shared/desktop/bg-pattern-hero-home.svg)"
       }
     },
   },

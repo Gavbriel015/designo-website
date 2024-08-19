@@ -1,13 +1,16 @@
 
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
-  
+
 
   return (
     <>
-      <h1 className='mb-24'>hola</h1>
-      
+      <div className='pb-40'>
+        <Home />
+      </div>
+
     </>
   )
 }
