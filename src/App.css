@@ -2,3 +2,15 @@
     background-image: url('../public/assets/home/desktop/bg-pattern-hero-home.svg');
     
 }
+
+.bgWebDesign {
+    background-image: url('../public/assets/home/mobile/image-web-design.jpg');
+}
+
+.bgAppDesign {
+    background-image: url('../public/assets/home/mobile/image-app-design.jpg');
+}
+
+.bgGraphicDesign {
+    background-image: url('../public/assets/home/mobile/image-graphic-design.jpg');
+}
