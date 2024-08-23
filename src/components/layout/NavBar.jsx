@@ -6,7 +6,7 @@ export default function NavBar() {
 
 
     return (
-        <header className='max-w-[1100px] m-auto flex justify-between items-center py-12 px-1'>
+        <header className='max-w-[1100px] m-auto flex justify-between items-center py-12 px-2'>
             <div className='w-[210px]'>
                 <img className='w-full' src={logoDark} alt="Designo Logo" />
             </div>
