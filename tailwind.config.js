@@ -8,9 +8,11 @@ export default {
     extend: {
       backgroundImage: {
         'bgPattern': "url(/public/assets/shared/desktop/bg-pattern-call-to-action.svg)",
-        'heroPattern': "url(/public/assets/shared/desktop/bg-pattern-hero-home.svg)"
+        'heroPattern': "url(/public/assets/shared/desktop/bg-pattern-hero-home.svg)",
+        'bgPatternCircle' : "url(/public/assets/shared/desktop/bg-pattern-small-circle.svg)"
       },
       screens: {
+        mob: "679px",
         tab: "950px"
       }
     },

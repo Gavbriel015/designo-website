@@ -11,7 +11,7 @@ export default function NavBar() {
                 <img className='w-full' src={logoDark} alt="Designo Logo" />
             </div>
             <nav className='hidden sm:flex tracking-[3px] uppercase gap-6 '>
-                <a href="" className='hover:underline'>Our Company</a>
+                <a href="/about" className='hover:underline'>Our Company</a>
                 <a href="" className='hover:underline' >Locations</a>
                 <a href="" className='hover:underline' >Contact</a>
             </nav>
