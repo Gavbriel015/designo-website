@@ -12,7 +12,7 @@ export default function NavBar() {
             </div>
             <nav className='hidden sm:flex tracking-[3px] uppercase gap-6 '>
                 <a href="/about" className='hover:underline'>Our Company</a>
-                <a href="" className='hover:underline' >Locations</a>
+                <a href="/locations" className='hover:underline' >Locations</a>
                 <a href="" className='hover:underline' >Contact</a>
             </nav>
             <div className='flex sm:hidden mr-6 cursor-pointer justify-center items-center pb-1 '>

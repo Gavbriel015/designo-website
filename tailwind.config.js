@@ -9,7 +9,8 @@ export default {
       backgroundImage: {
         'bgPattern': "url(/public/assets/shared/desktop/bg-pattern-call-to-action.svg)",
         'heroPattern': "url(/public/assets/shared/desktop/bg-pattern-hero-home.svg)",
-        'bgPatternCircle' : "url(/public/assets/shared/desktop/bg-pattern-small-circle.svg)"
+        'bgPatternCircle' : "url(/public/assets/shared/desktop/bg-pattern-small-circle.svg)",
+        'patternTwoCircles' : "url(/public/assets/shared/desktop/bg-pattern-two-circles.svg)"
       },
       screens: {
         mob: "679px",

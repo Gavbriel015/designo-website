@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line react/prop-types
 export default function LocationCard({name,img}) {
     return(
         <div className="flex flex-col items-center gap-10">

@@ -9,20 +9,9 @@ import realDealDesktop from "/assets/about/desktop/image-real-deal.jpg";
 import worldClassMobile from "/assets/about/mobile/image-world-class-talent.jpg";
 import worldClassTablet from "/assets/about/tablet/image-world-class-talent.jpg";
 import worldClassDesktop from "/assets/about/desktop/image-world-class-talent.jpg";
-
-import australiaImg from "/assets/shared/desktop/illustration-australia.svg";
-import canadaImg from "/assets/shared/desktop/illustration-canada.svg";
-import unitedKingdomImg from "/assets/shared/desktop/illustration-united-kingdom.svg";
-import LocationCard from "../components/about/LocationCard";
+import Location from "../components/about/Location";
 
 export default function About() {
-  
-    const locations = [
-    { name: "Canada", img: canadaImg },
-    { name: "Australia", img: australiaImg },
-    { name: "United Kingdom", img: unitedKingdomImg },
-  ];
-
   return (
     <section className="max-w-[1100px] m-auto">
       <div className="mob:px-4 w-full flex flex-col tab:flex-row-reverse mb-10">
@@ -85,13 +74,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="flex flex-col tab:flex-row justify-evenly gap-24 my-24">
-        {locations.map((location) => (
-          <div key={location.name}>
-            <LocationCard name={location.name} img={location.img} />
-          </div>
-        ))}
-      </div>
+      <Location />
 
       <div className="mob:px-4 w-full flex flex-col tab:flex-row-reverse">
         <picture className="tab:basis-[40%]">
