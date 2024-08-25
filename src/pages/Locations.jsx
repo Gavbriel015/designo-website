@@ -17,7 +17,7 @@ export default function Locations() {
             srcSet={caMapTablet}
           />
           <img
-            className="w-full  mob:max-h-[300px] tab:max-h-full mob:rounded-t-xl tab:rounded-t-none tab:rounded-r-2xl tab:w-[500px] tab:h-[500px] object-cover"
+            className="w-full  mob:max-h-[300px] tab:max-h-full mob:rounded-t-xl tab:rounded-t-none tab:rounded-r-3xl tab:w-[500px] tab:h-[500px] object-cover"
             src={caMapDesktop}
             alt=""
           />
@@ -48,12 +48,12 @@ export default function Locations() {
             srcSet={auMapTablet}
           />
           <img
-            className="w-full  mob:max-h-[300px] tab:max-h-full mob:rounded-t-xl tab:rounded-t-none tab:rounded-r-2xl tab:w-[500px] tab:h-[500px] object-cover"
+            className="w-full  mob:max-h-[300px] tab:max-h-full mob:rounded-t-xl tab:rounded-t-none tab:rounded-l-3xl tab:w-[500px] tab:h-[500px] object-cover"
             src={auMapDesktop}
             alt=""
           />
         </picture>
-        <div className="bg-patternTwoCircles bg-center bg-no-repeat tab:pl-20 tab:basis-[60%] bg-[#FDF4F2] mob:rounded-b-xl tab:rounded-b-none tab:rounded-l-2xl flex gap-6 flex-col items-center justify-center tab:items-start p-14 tab:w-1/2">
+        <div className="bg-patternTwoCircles bg-center bg-no-repeat tab:pl-20 tab:basis-[60%] bg-[#FDF4F2] mob:rounded-b-xl tab:rounded-b-none tab:rounded-r-3xl flex gap-6 flex-col items-center justify-center tab:items-start p-14 tab:w-1/2">
           <h1 className="font-bold text-4xl text-[#E88069]">Australia</h1>
           <div className="flex flex-col tab:flex-row text-center gap-8">
             <div>
@@ -78,7 +78,7 @@ export default function Locations() {
             srcSet={ukMapTablet}
           />
           <img
-            className="w-full  mob:max-h-[300px] tab:max-h-full mob:rounded-t-xl tab:rounded-t-none tab:rounded-r-2xl tab:w-[500px] tab:h-[500px] object-cover"
+            className="w-full  mob:max-h-[300px] tab:max-h-full mob:rounded-t-xl tab:rounded-t-none tab:rounded-r-3xl tab:w-[500px] tab:h-[500px] object-cover"
             src={ukMapDesktop}
             alt=""
           />
