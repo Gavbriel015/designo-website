@@ -14,3 +14,25 @@
 .bgGraphicDesign {
     background-image: url('../public/assets/home/mobile/image-graphic-design.jpg');
 }
+
+.inputStyle {
+    background-color: #E88069;
+    padding: 10px;
+    border-bottom: solid 1px white;
+    outline: none;
+    margin-bottom: 5px;
+    color: white;
+
+}
+.inputStyle::placeholder {
+    color: white;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
