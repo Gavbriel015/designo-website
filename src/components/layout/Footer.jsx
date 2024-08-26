@@ -32,13 +32,13 @@ export default function Footer() {
           </div>
           <div className="tab:hidden w-full h-[1px] bg-gray-700 px-5"></div>
           <nav className="flex-col tab:flex-row text-white text-center  tracking-[3px] uppercase gap-6 flex px-1">
-            <a href="" className="hover:underline">
+            <a href="/about" className="hover:underline">
               Our Company
             </a>
-            <a href="" className="hover:underline">
+            <a href="/locations" className="hover:underline">
               Locations
             </a>
-            <a href="" className="hover:underline">
+            <a href="/contact" className="hover:underline">
               Contact
             </a>
           </nav>
