@@ -14,7 +14,9 @@ export default {
       },
       screens: {
         mob: "679px",
-        tab: "950px"
+        tab: "950px",
+        xx: "799px",
+        
       }
     },
     

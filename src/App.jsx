@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom'
 import Locations from './pages/Locations'
 import Contact from './pages/Contact'
+import WebDesign from './pages/WebDesign'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Route path='/about' element={<About/>} />
             <Route path='/locations' element={<Locations/>} />
             <Route path='/contact' element={<Contact/>} />
+            <Route path='/webdesign' element={<WebDesign/>} />
           </Routes>
       </div>
 
