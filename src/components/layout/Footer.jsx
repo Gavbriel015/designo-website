@@ -1,5 +1,6 @@
-import logoWhite from "/assets/shared/desktop/logo-light.png";
 
+
+import logoWhite from "/assets/shared/desktop/logo-light.png";
 import logoFb from "/assets/shared/desktop/icon-facebook.svg";
 import logoYt from "/assets/shared/desktop/icon-youtube.svg";
 import logoTw from "/assets/shared/desktop/icon-twitter.svg";
@@ -14,10 +15,10 @@ export default function Footer() {
           className={`relative bottom-[100px] bg-[#E88069] w-full bg-bgPattern flex flex-col text-center lg:text-start items-center p-10 lg:p-20 bg-center rounded-xl lg:flex-row `}
         >
           <div className="mb-8">
-            <h1 className="pb-6 text-white font-semibold text-3xl lg:w-1/3">
+            <h1 className="pb-6 text-3xl font-semibold text-white lg:w-1/3">
               Lets talk about your project
             </h1>
-            <p className="lg:w-2/3 text-white">
+            <p className="text-white lg:w-2/3">
               Ready to take it to the next level? Contact us today and find out
               how our expertise can help your business grow.
             </p>
@@ -26,7 +27,7 @@ export default function Footer() {
             Get in Touch
           </button>
         </div>
-        <div className="tab:flex-row flex flex-col justify-between items-center gap-5">
+        <div className="flex flex-col items-center justify-between gap-5 tab:flex-row">
           <div className="w-[210px]">
             <img className="w-full" src={logoWhite} alt="Designo Logo" />
           </div>
@@ -44,7 +45,7 @@ export default function Footer() {
           </nav>
         </div>
         <div className="hidden tab:flex w-full tab:mt-4 h-[1px] bg-gray-700 px-5"></div>
-        <div className="tab:flex-row tab:justify-between tab:gap-20 text-center flex flex-col gap-8 pt-8">
+        <div className="flex flex-col gap-8 pt-8 text-center tab:flex-row tab:justify-between tab:gap-20">
           <div className="text-[#8B8B8C]">
             <p className="font-bold">Designo Central Office</p>
             <p>3886 Wellington Street</p>
@@ -55,7 +56,7 @@ export default function Footer() {
             <p>P : +1 253-863-8967</p>
             <p>M : contact@designo.co</p>
           </div>
-          <div className="flex justify-center gap-6 items-center">
+          <div className="flex items-center justify-center gap-6">
             <img className="cursor-pointer" src={logoFb} alt="" />
             <img className="cursor-pointer" src={logoYt} alt="" />
             <img className="cursor-pointer" src={logoTw} alt="" />
