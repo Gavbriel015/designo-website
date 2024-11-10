@@ -33,7 +33,7 @@ export default function GraphicDesign() {
       <div
         className={`bg-[#E88069] w-full bg-bgPattern bg-center p-10 py-16 rounded-xl flex flex-col justify-center text-center items-center`}
       >
-        <h1 className="pb-6 text-white font-semibold text-5xl lg:w-1/3">
+        <h1 className="pb-6 text-5xl font-semibold text-white lg:w-1/3">
           Web Design
         </h1>
         <p className="w-1/2 text-white">
@@ -42,7 +42,7 @@ export default function GraphicDesign() {
         </p>
       </div>
 
-      <div className="mt-10 grid grid-cols-1 xx:grid-cols-2 xl:grid-cols-3 gap-6 px-10 tab:px-0">
+      <div className="grid grid-cols-1 gap-6 px-10 mt-10 xx:grid-cols-2 xl:grid-cols-3 tab:px-0">
         {graphics.map((website) => (
           <div key={website.name}>
             <WebCard
@@ -54,15 +54,15 @@ export default function GraphicDesign() {
         ))}
       </div>
 
-      <div className="flex w-full gap-10 mt-28 mb-10">
-        <div className="tab:row-span-1 bgAppDesign bg-no-repeat bg-cover w-full rounded-2xl">
+      <div className="flex flex-col w-full gap-10 px-4 mb-10 mob:flex-row mt-14">
+        <div className="w-full bg-no-repeat bg-cover tab:row-span-1 bgAppDesign rounded-2xl">
           <a href="/webdesign">
             <div className="w-full cursor-pointer h-full hover:bg-[#E78069]/60 hover:brightness-160 bg-black/50 flex flex-col items-center justify-center py-24  gap-3 rounded-2xl">
-              <h1 className="text-white uppercase text-4xl font-semibold">
+              <h1 className="text-4xl font-semibold text-white uppercase">
                 Web Design
               </h1>
               <div className="flex items-center gap-2">
-                <p className="text-white uppercase font-semibold tracking-widest">
+                <p className="font-semibold tracking-widest text-white uppercase">
                   View Projects
                 </p>
                 <img className="w-2" src={iconArrow} alt="" />
@@ -71,14 +71,14 @@ export default function GraphicDesign() {
           </a>
         </div>
 
-        <div className="tab:row-span-2 bgGraphicDesign bg-no-repeat bg-cover w-full rounded-2xl">
+        <div className="w-full bg-no-repeat bg-cover tab:row-span-2 bgGraphicDesign rounded-2xl">
           <a href="/graphicdesign">
             <div className="w-full cursor-pointer h-full hover:bg-[#E78069]/60 hover:brightness-160 bg-black/50 flex flex-col items-center justify-center py-24  gap-3 rounded-2xl">
-              <h1 className="text-white uppercase text-4xl font-semibold">
+              <h1 className="text-4xl font-semibold text-white uppercase">
                 App Design
               </h1>
               <div className="flex items-center gap-2">
-                <p className="text-white uppercase font-semibold tracking-widest">
+                <p className="font-semibold tracking-widest text-white uppercase">
                   View Projects
                 </p>
                 <img className="w-2" src={iconArrow} alt="" />
